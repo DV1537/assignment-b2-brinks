@@ -1,4 +1,4 @@
-#include "Vertex.h"
+#include "SinglePoint.h"
 
 string SinglePoint::getType() const {
 	return this->TYPE;

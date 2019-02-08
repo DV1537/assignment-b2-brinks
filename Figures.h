@@ -1,6 +1,7 @@
 #ifndef FIGURES_H
 #define FIGURES_H
 
+#include <iomanip>
 #include "Shape.h"
 #include "DistanceCalc.h"
 #include "ShapeWDistance.h"

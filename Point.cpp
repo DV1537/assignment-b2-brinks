@@ -1,4 +1,5 @@
 #include "Point.h"
+#include <iomanip>
 
 double Point::getX() {
 	return this->xPos;
@@ -9,7 +10,7 @@ double Point::getY() {
 }
 
 ostream& operator<<(ostream& os, const Point& rhs) {
-	os << "(" << rhs.xPos << "," << rhs.yPos << ")";
+	os << setprecision(3) << fixed <<"(" << rhs.xPos << "," << rhs.yPos << ")";
 	return os;
 }
 

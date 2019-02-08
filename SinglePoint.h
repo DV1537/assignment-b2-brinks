@@ -1,5 +1,5 @@
-#ifndef VERTICE_H
-#define VERTICE_H
+#ifndef SINGLEPOINT_H
+#define SINGLEPOINT_H
 
 #include "Shape.h"
 

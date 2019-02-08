@@ -91,7 +91,7 @@ Shape **Figures::getClosest(Shape *location, int &n) {
 
 	}
 	for (int i = 0; i < this->count; i++) {
-		cout<<shapeDistances[i].distance<<endl;
+		cout<< setprecision(3) << fixed <<shapeDistances[i].distance<<endl;
 	}
 	qSort(shapeDistances, 0, this->count);
 	int amountOfShapes = this->count < n ? this->count : n;

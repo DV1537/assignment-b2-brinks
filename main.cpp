@@ -2,9 +2,10 @@
 #include <fstream>
 #include <string>
 #include <sstream>
+#include <iomanip>
 #include "Point.h"
 #include "Figures.h"
-#include "Vertex.h"
+#include "SinglePoint.h"
 #include "Line.h"
 #include "Triangle.h"
 #include "Polygon.h"
